@@ -1,13 +1,5 @@
 # Artemii Braiko
 
-## Navigation
-- [About](#about)
-- [Skills](#skills)
-- [Code](#code)
-- [Education](#education)
-
----
-
 ## Personal Information
 **First Name:** Artemii  
 **Last Name:** Braiko  
@@ -18,7 +10,13 @@
 
 ## Contact Information
 - [Discord (#enti_the_fox)](https://discord.com/users/enti_the_fox)  
-- [GitHub](https://github.com/Artemi1Braiko)  
+- [GitHub](https://github.com/Artemi1Braiko)
+
+---
+
+### Brief self-introduction
+I am here to learn what I need to know and do to start as a programmer.  
+I am motivated to find direction and achieve work that is meaningful to me.  
 
 ---
 
@@ -27,16 +25,20 @@
 - **Frameworks & Libraries:** Basic familiarity; currently refreshing my knowledge  
 - **Tools & Methodologies:** VS Code, Git, Android Studio  
 
----
 
-## Main Content
-
-### About
-I am here to learn what I need to know and do to start as a programmer.  
-I am motivated to find direction and achieve work that is meaningful to me.  
 
 ### Code Example
-```javascript
+----
 function multiply(a, b){
   return a * b;
 }
+
+---
+
+####Education
+**Secondary Education: Electrical technician for web development and mobile applications.**
+
+---
+
+####English Language Level: B2.
+**I studied English in secondary school and continue improving my skills.**
