@@ -1,65 +1,108 @@
-<h2>Personal Information</h2>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artemii Braiko CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-<p><strong>First Name:</strong> Artemii</p>
-<p><strong>Last Name:</strong> Braiko</p>
-<p align="left">
-  <img src="Photos/PhotoOfMe.jpg" width="200">
-</p>
-<h2>Contact Information</h2>
-<p>
-  <a href="https://discord.com/users/enti_the_fox">Discord</a> #enti_the_fox and 
-  <a href="https://github.com/Artemi1Braiko">GitHub</a>
-</p>
+<body>
 
-<hr>
+<header>
+  <h1>Artemii Braiko</h1>
 
-<h2>Brief Self-Introduction</h2>
-<p>
-  I am here to learn what I need to know and do to start as a programmer.
-</p>
-<p>
-  I am motivated to see in what direction I should start moving to achieve work that is more desirable for me.
-</p>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#code">Code</a></li>
+      <li><a href="#education">Education</a></li>
+    </ul>
+  </nav>
+</header>
 
-<hr>
+<main>
+  <aside class="left">
 
-<h2>Skills</h2>
+    <section>
+      <h2>Personal Information</h2>
+      <p><strong>First Name:</strong> Artemii</p>
+      <p><strong>Last Name:</strong> Braiko</p>
+    </section>
 
-<p><strong>Programming Languages:</strong> C, Java, HTML, CSS, Python, JavaScript</p>
+    <figure>
+      <img src="Photos/PhotoOfMe.jpg" alt="Profile Photo">
+      <figcaption>Profile Photo</figcaption>
+    </figure>
 
-<p><strong>Frameworks & Libraries:</strong> Haven't practiced for a long time, so I don't remember them.</p>
+    <section>
+      <h2>Contact Information</h2>
+      <ul>
+        <li><a href="https://discord.com/users/enti_the_fox">Discord (#enti_the_fox)</a></li>
+        <li><a href="https://github.com/Artemi1Braiko">GitHub</a></li>
+      </ul>
+    </section>
 
-<p><strong>Tools & Methodologies:</strong> VS Code, Git, Android Studio</p>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> C, Java, HTML, CSS, Python, JavaScript</li>
+        <li><strong>Frameworks & Libraries:</strong> Basic familiarity; currently refreshing my knowledge.</li>
+        <li><strong>Tools & Methodologies:</strong> VS Code, Git, Android Studio</li>
+      </ul>
+    </section>
 
-<hr>
+  </aside>
+  
+  <section class="right">
+    
+    <h2>Main Content</h2>
 
-<h2>Code Example</h2>
-<pre><code>
-function multiply(a, b){
+    <article id="about">
+      <h2>Brief Self-Introduction</h2>
+      <p>I am here to learn what I need to know and do to start as a programmer.</p>
+      <p>I am motivated to find direction and achieve work that is meaningful to me.</p>
+    </article>
+
+    <article id="code">
+      <h2>Code Example</h2>
+      <pre><code>function multiply(a, b){
   return a * b;
-}
-</code></pre>
+}</code></pre>
+    </article>
 
-<hr>
+    <article>
+      <h2>Work Experience</h2>
+      <p>
+        <a href="https://github.com/Artemi1Braiko/rsschool-cv/tree/gh-pages?tab=readme-ov-file#rsschool-cv">
+          This CV Project
+        </a>
+      </p>
+    </article>
 
-<h2>Work Experience</h2>
-<p>
-  <a href="https://github.com/Artemi1Braiko/rsschool-cv/tree/gh-pages?tab=readme-ov-file#rsschool-cv">
-    This CV
-  </a>
-</p>
+    <article id="education">
+      <h2>Education</h2>
+      <p>Secondary Education: Electrical technician for web development and mobile applications.</p>
+    </article>
 
-<hr>
+    <article>
+      <h2>English Language</h2>
+      <p><strong>Level:</strong> B2</p>
+      <p>I studied English in secondary school and continue improving my skills.</p>
+    </article>
 
-<h2>Education</h2>
-<p>
-  Secondary Education: Electrical technician for web development and mobile applications.
-</p>
+  </section>
 
-<hr>
+</main>
 
-<h2>English Language</h2>
-<p>
-  <strong>Level:</strong> B2<br>
-  I studied English in secondary school using Focus 2nd edition 4. I don’t have much experience speaking English with others.
-</p>
+<footer>
+  <p><a href="https://github.com/Artemi1Braiko">My GitHub profile</a></p>
+  <p>2026</p>
+  <p><a href="https://rs.school/courses/javascript-ru">RS School JavaScript Course</a></p>
+  <img src="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/rs-school-logo.svg" alt="RS School Logo" width="100">
+</footer>
+
+</body>
+</html>
